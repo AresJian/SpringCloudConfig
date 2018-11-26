@@ -1,0 +1,5 @@
+ zuul:
+   routes:
+     service-provicer:
+        path: /service/**
+        serviceId: enreka-service
