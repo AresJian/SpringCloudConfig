@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ares-config
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:8001/
+
+ares:
+  hello: hello

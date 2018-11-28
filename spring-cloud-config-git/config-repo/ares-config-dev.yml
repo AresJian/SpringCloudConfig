@@ -1,1 +1,2 @@
- ares.hello=hello i am dev update
+ ares: 
+  hello: hello i am dev update

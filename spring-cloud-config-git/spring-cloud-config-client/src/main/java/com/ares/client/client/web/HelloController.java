@@ -1,6 +1,7 @@
 package com.ares.client.client.web;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description:
  */
 @RestController
-public class HelloController {
+ class HelloController {
     @Value("${ares.hello}")
     private String hello;
 
